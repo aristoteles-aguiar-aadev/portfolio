@@ -9,6 +9,7 @@
     width: 100%;
     height: 100%;
     background: #f5f5f5;
+
 }
 
 
@@ -16,8 +17,8 @@
 
 .container-left {
     width: 45vw;
-    height: 190vh;
-    padding: 120px;
+    height: 45vh;
+    padding: 80px;
     line-height: 30px;
     display: inline-block;
     align-items: center;
@@ -25,19 +26,24 @@
     justify-content: center;
     background: linear-gradient(to top right, #021b79, rgb(8, 106, 226));
     border-top-right-radius: 10rem;
-    min-height: 110vh;
-    min-width: 30vw;
+    border-bottom-right-radius: 10rem;
+    min-height: 100vh;
+    min-width: 45vw;
     box-shadow: 7px 10px 20px 0px rgb(122, 122, 122);
-    
+    position: fixed;
 
 }
 
+.container-left-son {
+    position: static;
+}
+
+
 .profile {
-    width: 250px;
-    transition: 2s;
+    width: 210px;
     box-shadow: 8px 3px 4px 2px #086ae2;
     border-radius: 100%;
-
+    transition: 1s;
 }
 
 .profile:hover {
@@ -46,14 +52,14 @@
 }
 
 .portfolio {
-    margin-top: 50px;
-    font-size: 80px;
+    margin: 30px;
+    font-size: 50px;
     color: #fff
 }
 
 .name {
-    margin-top: 20px;
-    font-size: 23px;
+    margin: 10px;
+    font-size: 20px;
     color: #086be4;
     text-align: center;
 
@@ -61,28 +67,17 @@
 
 .office {
     font-weight: 100;
-    font-size: 18px;
-    color: #fff; 
+    font-size: 15px;
+    color: #fff;
     text-align: center;
 }
 
-/*-------container right-----------*/
-
-.container-right {
-    width: 50%;
-    height: 100vh;
-    display: inline-block;
-    position: absolute;
-    align-items: center;
-    margin: 25px;
-    
-}
 
 .links {
-    margin-left: 200px;
+    left: 10px;
     position: relative;
     cursor: pointer;
-    padding: 20px;
+    top: 10px;
     justify-content: center;
     font-size: 0;
 
@@ -93,18 +88,36 @@
     border: none;
     align-items: center;
     margin-right: 20px;
-    transition: 0.6s;
-    
+    transition: 0.4s;
+
 }
 
 .social img:hover {
     transform: translateY(-7px);
 
 }
+.github {
+    border-radius: 80%;
+}
+
+/*-------container right-----------*/
+
+.container-right {
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    align-items: center;
+    margin: 25px;
+    left: 50%;
+
+}
+
 
 
 .all-skills {
-    margin-top: 80px;
+    top: 30px;
+    bottom: 40px;
     position: relative;
 
 }
@@ -113,7 +126,11 @@
     margin: 30px;
     color: #086be4;
     font-weight: 400;
-    
+
+}
+
+.culture {
+    font-weight: 300;
 }
 
 .hard {
@@ -127,27 +144,150 @@
     color: #086be4;
     font-weight: 400
 }
+
 p {
     display: inline-block;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     width: 95%;
-    
+    margin:-20px 30px 30px 0;
 }
-span {
-    font-weight:400
 
+span {
+    font-weight: 500
 }
 
 
 /*-------responsividade-----------*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        background: #f5f5f5;
+    }
+
+
+    /*-------container left-----------*/
+
     .container-left {
         width: 100%;
-        height: 50%;
-        margin: 0;
-        padding: 0;
+        height: 35vh;
+        background: linear-gradient(to top right, #021b79, rgb(8, 106, 226));
+        border-top-right-radius: 10rem;
+      
+        
 
+
+        position: relative;
+    }
+
+    .profile {
+        width: 250px;
+        transition: 2s;
+        box-shadow: 8px 3px 4px 2px #086ae2;
+        border-radius: 100%;
+
+    }
+
+    .profile:hover {
+        transform: translateY(-25px);
+
+    }
+
+    .portfolio {
+        margin-top: 50px;
+        font-size: 80px;
+        color: #fff
+    }
+
+    .name {
+        margin-top: 20px;
+        font-size: 23px;
+        color: #086be4;
+        text-align: center;
+
+    }
+
+    .office {
+        font-weight: 100;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+    }
+
+    /*-------container right-----------*/
+
+    .container-right {
+        width: 50%;
+        height: 100vh;
+        display: contents;
+        position: relative;
+        align-items: center;
+        margin: 25px;
+
+    }
+
+    .links {
+        margin-left: 200px;
+        position: relative;
+        cursor: pointer;
+        padding: 20px;
+        justify-content: center;
+        font-size: 0;
+
+    }
+
+    .social .linkedin, .github, .instagram, .whatsapp {
+        width: 40px;
+        border: none;
+        align-items: center;
+        margin-right: 20px;
+        transition: 0.6s;
+
+    }
+
+    .social img:hover {
+        transform: translateY(-7px);
+
+    }
+
+
+    .all-skills {
+        margin-top: 80px;
+        position: relative;
+
+    }
+
+    .soft {
+        margin: 30px;
+        color: #086be4;
+        font-weight: 400;
+
+    }
+
+    .hard {
+        margin: 30px;
+        color: #086be4;
+        font-weight: 400
+    }
+
+    .project {
+        margin: 30px;
+        color: #086be4;
+        font-weight: 400
+    }
+
+    p {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;
+        width: 95%;
+
+    }
+
+    span {
+        font-weight: 400
     }
 }
