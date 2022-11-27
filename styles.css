@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -170,7 +169,7 @@ span {
 
 /*-------responsividade-----------*/
 @media screen and (max-width: 1000px) {
-=======
+
 * {
     margin: 0;
     padding: 0;
@@ -338,9 +337,4 @@ p {
 span {
     font-weight: 500
 }
-
-
-/*-------responsividade-----------*/
-@media screen and (max-width: 1000px) {
->>>>>>> e1ebf0b41f088be62f945b84b04fa8a1616a5835
 }
