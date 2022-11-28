@@ -177,33 +177,21 @@ span {
 
 
 
-@media screen and (max-width: 900px) {
-    .wrapper {
-        width: 0;
-        height: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-
-    }
+@media only screen and (max-width: 800px) {
+    /*Big smartphones [426px -> 600px]*/
 
     .container-left {
-        width: 120vw;
-        height: 40vh;
-        margin: 50px 50px;
-        padding: 50px;
-        left: 15%;
-        line-height: 30px;
-        text-align: center;
-        background: linear-gradient(to top right, #021b79, #086ae2);
-        border-top-right-radius: 10rem;
-        border-bottom-right-radius: 10rem;
-        border-top-left-radius: 10rem;
-        min-height: 40vh;
-        min-width: 100vw;
-        box-shadow: 9px 12px 24px 12px rgb(122 122 122);
+        width: 100%;
+        height: 40%;
         position: relative;
-        transition: 1s;
+        
+    }
 
+    .container-right {
+        width: 100%;
+        height: 60%;
+        position: static;
+        
     }
 
 }
