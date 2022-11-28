@@ -179,15 +179,24 @@ span {
 @media only screen and (max-width: 900px) {
 
     .container-left {
-        width: 80vw;
-        height: 60vh;
-        margin: 50px;
-        padding: 15px;
-        position: relative;
-        border-top-right-radius: 4rem;
-        border-bottom-right-radius: 4rem;
-        border-top-left-radius: 4rem;
-        min-height: 80vh;
+        width: 150vw;
+        height: 45vh;
+        margin: 30px 30px 50px 30px;
+        padding: 50px;
+        line-height: 30px;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: linear-gradient(to top right, #021b79, #086ae2);
+        border-top-right-radius: 10rem;
+        border-bottom-right-radius: 10rem;
+        border-top-left-radius: 10rem;
+        border-bottom-left-radius: rem;
+        min-height: 45vh;
+        min-width: 150vw;
+        box-shadow: 9px 12px 24px 12px rgb(122 122 122);
+        position: fixed;
         transition: 1s;
     }
 
@@ -222,11 +231,13 @@ span {
     }
 
     .container-right {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 60%;
-        left: 20px;
+        width: 100vh;
+        height: 55vw;
+        display: block;
+        position: relative;
+        align-items: center;
+        margin: 25px;
+        left: 10%;
     }
 
 }
