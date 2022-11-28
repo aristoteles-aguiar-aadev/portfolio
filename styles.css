@@ -176,27 +176,27 @@ span {
 
 
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
     .container-left {
-        width: 150vw;
-        height: 45vh;
-        margin: 30px 30px 50px 30px;
-        padding: 50px;
-        line-height: 30px;
-        display: inline-block;
+        width: 84vw;
+        height: 60vh;
+        margin: 20px;
+        padding: 10px;
+        line-height: 20px;
+        display: block;
         align-items: center;
         text-align: center;
         justify-content: center;
         background: linear-gradient(to top right, #021b79, #086ae2);
-        border-top-right-radius: 10rem;
-        border-bottom-right-radius: 10rem;
-        border-top-left-radius: 10rem;
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+        border-top-left-radius: 5rem;
         border-bottom-left-radius: rem;
         min-height: 45vh;
-        min-width: 150vw;
+        min-width: 90vw;
         box-shadow: 9px 12px 24px 12px rgb(122 122 122);
-        position: fixed;
+        position: relative;
         transition: 1s;
     }
 
@@ -204,22 +204,29 @@ span {
         transform: translateX(25px);
     }
 
+
     .container-left-son {
         position: relative;
-        margin: 15px;
+        margin: 10px;
+    }
+
+    .profile {
+        width: 150px;
+        
     }
 
     .portfolio {
-        margin: 15px;
+        padding: 0;
+        margin-top: 30px;
     }
 
     .name {
-        margin: 0;
+        margin-top: 10px;
 
     }
 
     .office {
-        margin: 0;
+        margin-top: 10px;
     }
 
     .links {
@@ -228,16 +235,27 @@ span {
 
     .social {
         margin: 0;
+        padding: 0;
+    }
+    
+    .reserve {
+        margin: 0;
+        padding: 0;
     }
 
     .container-right {
-        width: 100vh;
+        width: auto;
         height: 55vw;
-        display: block;
-        position: relative;
+        display: absolute;
+        position:absolute;
         align-items: center;
-        margin: 25px;
-        left: 10%;
+        margin: 10px;
+        left: 5%;
+        padding: 10px;
+    }
+    .all-skills {
+        margin: 5px;
+        padding: 5px;
     }
 
 }
