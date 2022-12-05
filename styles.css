@@ -5,6 +5,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+}
+
 .wrapper {
     width: 100%;
     height: 100%;
@@ -17,8 +25,8 @@
 
 .container-left {
     width: 40vw;
-    height: 45vh;
-    margin: 30px 30px 50px 30px;
+    height: 40vh;
+    margin: 30px 30px 50px 50px;
     padding: 50px;
     line-height: 30px;
     display: inline-block;
@@ -32,13 +40,15 @@
     border-bottom-left-radius: rem;
     min-height: 85vh;
     min-width: 40vw;
-    box-shadow: 9px 12px 24px 12px rgb(122, 122, 122);
+    box-shadow: 9px 12px 24px 12px rgb(160, 147, 147);
     position: fixed;
     transition: 1s;
+
 }
 
 .container-left:hover {
-    transform: translateX(25px);
+    transform: translateX(40px);
+
 }
 
 .container-left-son {
@@ -56,7 +66,8 @@
 .portfolio {
     margin: 30px;
     font-size: 50px;
-    color: #fff
+    color: #fff;
+
 }
 
 .name {
@@ -111,6 +122,16 @@
 
 }
 
+.tecnology {
+    align-items: center;
+    margin-left: -20px;
+}
+
+.tecnology img {
+    width: 30px;
+    height: 30px;
+
+}
 /*-------container right-----------*/
 
 .container-right {
@@ -124,8 +145,6 @@
 
 }
 
-
-
 .all-skills {
     bottom: 40px;
     position: relative;
@@ -133,26 +152,26 @@
 }
 
 .soft {
-    margin: 30px;
+    margin-top: 30px;
     color: #086be4;
-    font-weight: 400;
-}
+    font-weight: 900;
 
+}
 
 .culture {
     font-weight: 300;
 }
 
 .hard {
-    margin: 30px;
+    margin-top: 30px;
     color: #086be4;
-    font-weight: 400
+    font-weight: 900;
 }
 
 .project {
-    margin: 30px;
+    margin-top: 30px;
     color: #086be4;
-    font-weight: 400
+    font-weight: 900;
 }
 
 p {
@@ -161,7 +180,7 @@ p {
     font-weight: 400;
     line-height: 25px;
     width: 95%;
-    margin: -20px 30px 30px 0;
+    margin: 20px 30px 30px 0;
 
 }
 
@@ -212,7 +231,7 @@ span {
 
     .profile {
         width: 150px;
-        
+
     }
 
     .portfolio {
@@ -237,7 +256,7 @@ span {
         margin: 0;
         padding: 0;
     }
-    
+
     .reserve {
         margin: 0;
         padding: 0;
@@ -247,12 +266,13 @@ span {
         width: auto;
         height: 55vw;
         display: absolute;
-        position:absolute;
+        position: absolute;
         align-items: center;
         margin: 10px;
         left: 5%;
         padding: 10px;
     }
+
     .all-skills {
         margin: 5px;
         padding: 5px;
