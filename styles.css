@@ -87,9 +87,7 @@ body {
 
 
 .links {
-    left: 5px;
     position: relative;
-    cursor: pointer;
     top: 5px;
     padding:0%;
     justify-content: center;
@@ -97,8 +95,32 @@ body {
 
 }
 
+.tecnology {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+
+}
+
+.tecnology img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.reserve {
+    margin-top: 0px;
+    font-size: 9px;
+    font-weight: 200;
+    color: gainsboro;
+    margin: 0;
+    padding: 0;
+
+}
+
 .social .linkedin, .github, .instagram, .whatsapp {
-    width: 30px;
+    width: 25px;
     border: none;
     align-items: center;
     margin-right: 10px;
@@ -116,29 +138,8 @@ body {
     border-radius: 80%;
 }
 
-.reserve {
-    margin-top: 0px;
-    font-size: 9px;
-    font-weight: 200;
-    color: gainsboro;
-    margin: 0;
-    padding: 0;
 
-}
-
-.tecnology {
-    align-items: center;
-    margin: 0;
-    padding: 0;
-
-}
-
-.tecnology img {
-    width: 20px;
-    height: 20px;
-
-}
-/*-------container right-----------*/
+/*-------container right---------------------------------------*/
 
 .container-right {
     width: 100vh;
