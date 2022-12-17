@@ -64,7 +64,7 @@ body {
 }
 
 .portfolio {
-    margin: 30px;
+    margin: 20px;
     font-size: 50px;
     color: #fff;
 
@@ -80,28 +80,30 @@ body {
 
 .office {
     font-weight: 200;
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;
     text-align: center;
 }
 
 
 .links {
-    left: 10px;
+    left: 5px;
     position: relative;
     cursor: pointer;
-    top: 10px;
+    top: 5px;
+    padding:0%;
     justify-content: center;
     font-size: 0;
 
 }
 
 .social .linkedin, .github, .instagram, .whatsapp {
-    width: 40px;
+    width: 30px;
     border: none;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
     transition: 0.4s;
+
 
 }
 
@@ -119,17 +121,21 @@ body {
     font-size: 9px;
     font-weight: 200;
     color: gainsboro;
+    margin: 0;
+    padding: 0;
 
 }
 
 .tecnology {
     align-items: center;
-    margin-left: -20px;
+    margin: 0;
+    padding: 0;
+
 }
 
 .tecnology img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 
 }
 /*-------container right-----------*/
@@ -199,7 +205,7 @@ span {
 
     .container-left {
         width: 84vw;
-        height: 60vh;
+        height: auto;
         margin: 20px;
         padding: 10px;
         line-height: 20px;
@@ -212,18 +218,13 @@ span {
         border-bottom-right-radius: 5rem;
         border-top-left-radius: 5rem;
         border-bottom-left-radius: rem;
-        min-height: 45vh;
-        min-width: 90vw;
+        min-height: auto;
         box-shadow: 9px 12px 24px 12px rgb(122 122 122);
         position: relative;
-        transition: 1s;
+        
     }
 
-    .container-left:hover {
-        transform: translateX(25px);
-    }
-
-
+   
     .container-left-son {
         position: relative;
         margin: 10px;
